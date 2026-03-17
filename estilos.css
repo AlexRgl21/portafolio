@@ -268,3 +268,14 @@ p{
   line-height: 1.6;
   max-width: 700px;
 }
+
+/* Estilos para los enlaces de los certificados */
+.enlace-certificado {
+    color: var(--fondo-oscuro);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.enlace-certificado:hover {
+    color: var(--color-primario); /* Cambia a azul al pasar el mouse */
+}
